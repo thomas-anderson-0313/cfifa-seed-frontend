@@ -206,7 +206,6 @@ function Seedsale() {
                       className="x-swapCard-submit-button"
                       style={{ padding: 14, width: "50%", marginTop: 20 }}
                       onClick={handleBuy}
-                      disabled
                     >
                       Buy CFIFA
                     </button>
