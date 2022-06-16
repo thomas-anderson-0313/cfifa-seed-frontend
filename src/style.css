@@ -1,0 +1,163 @@
+@font-face {
+  font-family: "bwmodel";
+  src: url("../public/font/BwModelicaSS01-Regular.otf");
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "bwmodel" !important;
+  /* background-color: black!important; */
+  background-image: url("./img/background.png");
+  background-size: cover;
+  background-position: center;
+
+  height: 100vh;
+}
+
+.MuiGrid-spacing-xs-3 {
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+.diceGrid {
+  margin-left: 15%;
+  width: 70%;
+}
+
+.diceGrid1 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.x-nav-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.diceGrid {
+  margin-left: 15%;
+  width: 70%;
+}
+
+.x-nav-button {
+  float: right;
+  background-color: transparent !important;
+  font-size: 18px !important;
+  font-weight: 550 !important;
+  color: white !important;
+  margin-left: 40px !important;
+  border: 2px solid white !important;
+
+  border-radius: 25px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.y-card-form-top {
+  /* border: 2px solid red; */
+  border-radius: 15px;
+  /* background-color: rgba(15, 36, 57, 0.442); */
+  background-color: rgba(61, 14, 14, 0.442);
+}
+
+.x-font3_2 {
+  color: white !important;
+  font-size: 25px !important;
+  font-weight: 500 !important;
+}
+
+.top_section {
+  background-image: url(./img/2.png);
+  background-size: 100% 100%;
+  padding: 10px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  display: flex;
+  padding-left: 15px;
+}
+
+.top_section img {
+  margin-left: auto;
+  margin-right: 5px;
+  width: 70px;
+  height: 40px;
+  align-self: center;
+}
+
+.bottom_border {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 10px;
+}
+
+.x-font3_1 {
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-size: 30px !important;
+  font-weight: 300 !important;
+}
+
+.y-card-input {
+  border-bottom: 1px solid #fcfafa !important;
+  border: none;
+  outline: none;
+  font-size: 30px !important;
+  background-color: transparent;
+  float: right;
+  color: white;
+  padding-bottom: 10px;
+  max-width: 150px;
+}
+
+.x-font3 {
+  color: white !important;
+  font-size: 25px !important;
+  font-weight: 500 !important;
+}
+
+.x-swapCard-submit-button {
+  background-color: rgb(34, 34, 23);
+  font-size: 22px;
+  color: white;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  border-radius: 58px;
+  padding: 11px;
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.blog-graphic-text {
+  font-size: 48px;
+  font-weight: 800;
+  margin-top: 80px !important;
+  background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+}
+
+.sale-infor {
+  font-size: 23px;
+  font-weight: 800;
+  background: -webkit-linear-gradient(45deg, #ead8be, #00ff95 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.marketing-button {
+  background: -webkit-linear-gradient(45deg, #353435, #0c0b0b 80%);
+  padding: 15px;
+  border-radius: 10px;
+  text-decoration: none !important;
+  font-size: 20px;
+  color: white;
+}
+
+.marketing-button:hover {
+  color: black !important;
+}
