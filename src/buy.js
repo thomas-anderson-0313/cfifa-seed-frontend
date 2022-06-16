@@ -128,7 +128,7 @@ function Seedsale() {
                       <div>
                         <a
                           className="marketing-button"
-                          href="https://whitepaper.cfifa.finance"
+                          href="https://crypto-fifa23.gitbook.io/crypto-fifa23-world/"
                           target="_blank"
                           rel="noreferrer"
                         >
@@ -191,6 +191,9 @@ function Seedsale() {
                     }}
                   >
                     <Progress percent={(sold / 42.5).toFixed(4)} />
+                  </div>
+                  <div style={{ textAlign: "center", color: "white" }}>
+                    {sold} BNB
                   </div>
                   <div className="sale-infor">
                     <div>25,000,000 CFIFA for Seedsale</div>
